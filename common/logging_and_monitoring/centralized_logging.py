@@ -19,7 +19,7 @@ if AIRFLOW_HOME != "/opt/airflow":
 SCRIPTS_PATH = os.path.join(AIRFLOW_HOME, "common", "logging_and_monitoring", "logs")
 os.makedirs(SCRIPTS_PATH, exist_ok=True)  # ✅ Make sure the logs dir exists
 
-script_logs_path = os.path.join(SCRIPTS_PATH, "loki_errors.text")
+script_logs_path = os.path.join(SCRIPTS_PATH, "loki_errors.log")
 if not os.path.exists(script_logs_path):
     open(script_logs_path, 'a').close()  # ✅ Ensure the file exists
 
