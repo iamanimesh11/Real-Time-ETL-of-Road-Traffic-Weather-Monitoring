@@ -1,4 +1,4 @@
-# 🚦 Real-Time  ETL of Road Traffic & Weather Monitoring.
+# 🚦 TrafficStream - Real-Time Traffic & Weather Data Platform
 
 > 🛰️ An end-to-end real-time data engineering pipeline to collect, process, and visualize road traffic & weather data using **Kafka**, **Airflow**, **PostgreSQL**, and **Grafana Loki**—fully containerized with **Docker**.
 
