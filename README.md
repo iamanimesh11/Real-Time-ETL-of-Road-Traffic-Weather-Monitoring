@@ -4,7 +4,7 @@
 
 ---
 **Remarks**:  
-In real-world Data Engineering projects, deploying a full-scale production setup can be costly. Therefore, for the purpose of showcasing, the entire infrastructure in this project is built and demonstrated locally using Docker — ensuring it's fully reproducible without incurring any extra cost.
+In real-world Data Engineering projects, deploying a full-scale production setup can be costly. Therefore, for the purpose of showcasing, the entire infrastructure in this project is built and demonstrated locally using Docker-ensuring it's fully reproducible without incurring any extra cost.
 
 ---
 
@@ -31,7 +31,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 
 
 - **🐳 Fully Dockerized Architecture**  
-  Deploy the entire stack with a single `docker-compose up --build` — no manual setup.
+  Deploy the entire stack with a single `docker-compose up --build`-no manual setup.
 
 - **⚙️ Real-Time ETL Pipeline with Kafka Streaming**  
   Data is streamed in real-time using Apache Kafka, then processed via Python-based ETL jobs and stored in PostgreSQL.
@@ -52,7 +52,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
   Sends ETL job alerts (success/failure) via Discord webhooks.
 
 - **🔐 Secure Credential & API Key Management**  
-  Firebase securely stores API keys, secrets, and credentials — no hardcoding.
+  Firebase securely stores API keys, secrets, and credentials-no hardcoding.
 
 - **💾 Persistent PostgreSQL Storage**  
   Maintains structured data and ensures durability across restarts.
@@ -61,7 +61,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
   Clean modular structure with support for external config files, secrets, and new data sources.
 
 - **👨‍💻 Plug-and-Play for Recruiters**  
-  Instantly clonable and runnable — ideal for technical demos or code evaluations.
+  Instantly clonable and runnable-ideal for technical demos or code evaluations.
 
 ---
 # 🛠️Tech Stack
